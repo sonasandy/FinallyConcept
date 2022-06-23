@@ -24,7 +24,7 @@ public class AllTestCases {
 		driver.findElement(By.name("uid")).sendKeys("mngr409844");
 		driver.findElement(By.name("password")).sendKeys("tUgurUb");
 		driver.findElement(By.name("btnLogin")).click();
-		driver.quit();
+	
 	
 	}
 }
